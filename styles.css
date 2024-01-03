@@ -1,0 +1,90 @@
+/* VariablesCSS */
+:root {
+    --violet-pastel-1: #cdb1cd;
+    --violet-pastel-2: #d9bed9;
+    --violet-pastel-3: #e6cae6;
+    --white: #ffffff;
+}
+
+/* BODY */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Cambié la fuente */
+    background-color: var(--violet-pastel-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CONTAINER */
+.container {
+    text-align: center;
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 20%;
+}
+
+/* H1 */
+h1 {
+    color: var(--violet-pastel-3);
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive; /* Cambié la fuente */
+}
+
+/* FECHA ACTUAL */
+#fechaActual {
+    font-size: 18px;
+    color: var(--violet-pastel-2);
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+/* INPUT TAREA */
+.inputTarea {
+    padding: 10px;
+    width: 70%;
+    margin-bottom: 10px;
+    background-color: var(--violet-pastel-2);
+}
+
+/* LISTA TAREA */
+#listaTarea {
+    list-style: none;
+    padding: 0;
+}
+
+/* LI */
+li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+/* CHECKBOX */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* TEXTO */
+p {
+    flex-grow: 1;
+    margin: 0;
+}
+
+/* BOTON ELIMINAR */
+span.delete {
+    cursor: pointer;
+    color: var(--violet-pastel-3);
+}
+
+/* BOTON ELIMINAR HOVER */
+span.delete:hover {
+    color: var(--violet-pastel-2);
+}
+.container ul{
+    height: 200px;
+    overflow-y: scroll;
+}
